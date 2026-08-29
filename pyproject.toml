@@ -1,7 +1,7 @@
 [project]
 name = "dlfs-6"
 version = "0.1.0"
-description = "Add your description here"
+description = "Study code for Deep Learning from Scratch 6"
 readme = "README.md"
 authors = [
     { name = "jojongguk", email = "rusad96@gmail.com" }
@@ -13,9 +13,5 @@ dependencies = [
     "numpy>=2.5.2",
 ]
 
-[project.scripts]
-dlfs-6 = "dlfs_6:main"
-
-[build-system]
-requires = ["uv_build>=0.12.1,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
