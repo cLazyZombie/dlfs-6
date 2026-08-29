@@ -1,0 +1,21 @@
+[project]
+name = "dlfs-6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jojongguk", email = "rusad96@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+]
+
+[project.scripts]
+dlfs-6 = "dlfs_6:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
