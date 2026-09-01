@@ -11,6 +11,8 @@ dependencies = [
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
     "numpy>=2.5.2",
+    "regex>=2026.9.3",
+    "tqdm>=4.70.0",
 ]
 
 [tool.uv]
